@@ -1,0 +1,33 @@
+# Python
+backend/.venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# 錄音上傳（本機測試檔，通常不進版控）
+backend/uploads/
+
+# Node / 前端
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# 環境變數與密鑰
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 系統／編輯器
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.log
+
+# 可選：本機 mkcert 憑證若有 generat 在專案內
+certs/
